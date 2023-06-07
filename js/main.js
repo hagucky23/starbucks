@@ -31,7 +31,7 @@ window.addEventListener('scroll', _.throttle(function () {
     gsap.to(toTopEl, .2, {
       x: 0
     });
-  } else {
+  } else { 
     // 배지 보이기
     gsap.to(badgeEl, .6, {
       opacity: 1,
